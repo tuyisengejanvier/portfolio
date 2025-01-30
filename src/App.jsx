@@ -15,8 +15,8 @@ const App = () => {
      <Analytics/>
      <Newsletter />
      <Cards/>
-     <Footer/>
      <Joine/>
+     <Footer/>
     </div>
   )
 }

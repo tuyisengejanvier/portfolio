@@ -1,5 +1,7 @@
 import React,{useState} from 'react'
-import Alight from "../assets/wawa.png"; 
+import Logo from '../assets/logo.jpeg'
+ 
+
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 
@@ -9,16 +11,19 @@ const Navbar = () => {
         setNav(!nav)
       }
   return (
+    
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto  px-4 text-white'>
-       <img className='w-50 h-20  bg-white ' src= {Alight} alt='/' />
-      <h1 className='w-full text-3xl font-blod text-[#facc15] m-4'>COMPANY.</h1>
+       <img className='w-50 h-20  bg-white ' src= {Logo} alt='/' />
+       
+      <h1 className='w-full text-3xl font-blod text-[#facc15] m-4'>MENYANIBI.MEDIA</h1>
       <ul className='hidden md:flex'>
         <li className='p-4'>Home</li>
         <li className='p-4'>Company</li>
-        <li className='p-4'>Resouse</li>
+        <li className='p-4'>Youtube</li>
         <li className='p-4'>About</li>
         <li className='p-4'>contact</li>
       </ul>
+      
       <div onClick={handleNav} className='block md:hidden'>
         {nav ?<AiOutlineClose size={20}/>:<AiOutlineMenu size={20}/>}
       
@@ -30,7 +35,7 @@ const Navbar = () => {
         <li className='p-4 border-b border-gray-600'>Company</li>
         <li className='p-4 border-b border-gray-600'>Resouse</li>
         <li className='p-4 border-b border-gray-600'>About</li>
-        <li className='p-4'>contact</li>
+        <li className='p-4 border-b border-gray-600'>contact</li>
       </ul>
       
     </div>

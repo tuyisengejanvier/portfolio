@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from "../assets/logo.jpeg"
 import {FaFacebookSquare,
 FaDribbbleSquare,
 FaGitSquare,
@@ -11,8 +11,9 @@ const Footer = () => {
   return (
     <div className='max-w-[1240px]  mx-auto py-16 px-4 grid lg:grid-cols-3 pag-8 text-gray-300'>
         <div>
-            <h1 className='w-full text-3xl font-blod text-[#db2777] m-4'>ALIGHT.</h1>
-            <p className='py-4'> A Font Awesome account is needed to use services like Kits. You can read more about the terms </p>
+            <h1 className='w-full text-3xl font-blod text-[#03b500] m-4'>Menyanibi.Media</h1>
+            <img className='w-60 h-70 list-image-[url(checkmark.png)]  border-r-4 bg-white ' src= {logo} alt='/' />
+            <p className='py-4'>Thank you to be hare in this wabesite Menyanibi.media. You can read more about the terms </p>
             <div className='flex justify-between my-6 md:w-[75%]'>
                 <FaFacebookSquare size={30}/>
                 <FaInstagramSquare size={30}/>

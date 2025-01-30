@@ -20,7 +20,7 @@ const Cards = () => {
         </div>
         <div className='w-full shadow-xl flex flex-col md:my-0  bg-gray-100 p-4 my-4 rounder-lg hover:scale-105 duration-300'>
          <img className='w-20 mx-auto  bg-white bg-transparent' src= {Good} alt='/' />
-         <h2 className='text-2xl text-center font-bold font-center py-8'>Single User</h2>
+         <h2 className='text-2xl text-center font-bold font-center py-8'>Strong User</h2>
          <p className='text-center text-4xl font-blod'>$155</p>
          <div className='text-center font-medium'>
             <div className='py-2 border-b max-8 mt-8'>500 GB Store </div>
@@ -31,7 +31,7 @@ const Cards = () => {
         </div>
         <div className='w-full shadow-xl flex flex-col p-4 my-4 rounder-lg hover:scale-105 duration-300'>
          <img className='w-20 mx-auto  bg-white ' src= {Best} alt='/' />
-         <h2 className='text-center text-2xl font-bold foKnt-center py-8 '>Single User</h2>
+         <h2 className='text-center text-2xl font-bold foKnt-center py-8 '>Biggest User</h2>
          <p className='text-center text-4xl font-blod'>$196</p>
          <div className='text-center font-medium'>
             <div className='py-2 border-b max-8 mt-8'>500 GB Store </div>
